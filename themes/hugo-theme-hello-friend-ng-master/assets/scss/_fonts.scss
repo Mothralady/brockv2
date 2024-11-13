@@ -48,3 +48,10 @@
   src: url("fonts/Inter-BoldItalic.woff2") format("woff2"),
        url("fonts/Inter-BoldItalic.woff") format("woff");
 }
+@font-face {
+  font-family: "Satisfy";
+  font-style:  normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url("fonts/Satisfy-Regular.ttf") format("ttf");
+}

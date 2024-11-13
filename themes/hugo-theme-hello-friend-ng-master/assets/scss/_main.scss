@@ -14,7 +14,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Roboto",
+  font-family: Inter, Satisfy, -apple-system, BlinkMacSystemFont, "Roboto",
     "Segoe UI", Helvetica, Arial, sans-serif;
   font-display: auto;
   font-size: 1rem;
@@ -58,6 +58,7 @@ body {
   }
 }
 
+h1
 h2,
 h3,
 h4,
@@ -424,9 +425,15 @@ hr {
 
 .background-image {
   background-repeat: no-repeat;
-  background-attachment: fixed;
+
   background-size: cover;
   background-position: center center;
+}
+
+@media (max-width: 700px) { /* Adjust as needed*/
+  .background-image {
+    background-size: contain; /* Ensure the whole image fits on smaller screens */
+  }
 }
 
 // Prism JS Additionals

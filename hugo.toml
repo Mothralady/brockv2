@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'Brock Bushong'
+title = 'New Single Out Now!'
 theme = "hugo-theme-hello-friend-ng-master"
 
 PygmentsCodeFences = true
@@ -58,16 +58,16 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = 'Official Website'
+  description = 'Brock Bushong Official Website'
   keywords = 'music'
-  images = ['']
+  images = ['img/brocklogo.png']
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = 'listen to my feeeeeelings'
+  # homeSubtitle = ''
 
   # Set a background for the homepage
-  # backgroundImage = "assets/images/background.jpg"
+ backgroundImage = "img/brocklogo.png"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   #
@@ -114,8 +114,8 @@ disableHugoGeneratorInject = false
   #
   [params.footer]
     trademark = 2024
-    rss = true
-    copyright = true
+    rss = false
+    copyright = false
     author = true
 
     topText = []
@@ -131,8 +131,8 @@ disableHugoGeneratorInject = false
     theme = "#1b1c1d"
 
   [params.logo]
-    logoMark     = ""
-    logoText     = "BB"
+    logoMark     = "+"
+    logoText     = "Brock Bushong"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
       logoCursorDisabled = true
@@ -148,10 +148,10 @@ disableHugoGeneratorInject = false
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
   # Uncomment this if you want a portrait on your start page
   #
-   [params.portrait]
-     path     = "img/brock06.jpg"
-     alt      = "Portrait"
-     maxWidth = "150px"
+  # [params.portrait]
+  #   path     = "img/brock06.jpg"
+  #   alt      = "Brock Bushong"
+  #   maxWidth = "150px"
 
  
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  
